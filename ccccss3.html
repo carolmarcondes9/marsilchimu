@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+    <title>Abas de Navegação</title>
+<style>
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ddd;
+    font-family: 'Calibri';
+    font-size: 16px;
+    LINE-HEIGHT: 20px;
+}
+
+
+.nav_tabs{
+    width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    position: relative;
+
+:-webkit-scrollbar-thumb:vertical {background-color: #A77DC2; height: 10px;}
+::-webkit-scrollbar-thumb:horizontal {background-color: #A77DC2; height:10px!important;}
+::-webkit-scrollbar {background-color: #222222; height:8px; width:5px;}
+}
+
+
+
+
+.nav_tabs ul{
+    list-style: none;
+}
+
+.nav_tabs ul li{
+    float: left;
+}
+
+.nav_tabs label{
+    width: 100px;
+    padding: 25px;
+    background-color: #363b48;
+    display: block;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+
+.rd_tabs:checked ~ label{
+    background-color: #e54e43;
+}
+
+.rd_tabs{
+    display: none;
+}
+
+.content{
+    border-top: 5px solid #e54e43;
+    background-color: #fff;
+    display: none;
+    width: 600px;
+    position: absolute;
+    left: 0;
+}
+
+.content article{
+    padding: 10px;
+    text-align: justify;
+}
+
+.rd_tabs:checked ~ .content{
+    display: block;
+}
+
+input[id^="spoiler"]{
+ display: none;
+}
+input[id^="spoiler"] + label {
+  display: block;
+  width: 210px;
+  margin: 0 auto;
+  padding: 5px 20px;
+  background: #F7A98F;
+  color: #80280B;
+  text-align: center;
+  font-size: 24px;
+  border-radius: 0px;
+  cursor: pointer;
+  transition: all .6s;
+}
+input[id^="spoiler"]:checked + label {
+  color: #fff;
+  background: #3B5D8E;
+}
+input[id^="spoiler"] ~ .spoiler {
+  width: 90%;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  margin: 10px auto 0; 
+  padding: 10px; 
+  background: #eee;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: all .6s;
+  LINE-HEIGHT: 20px;
+  font-family: 'calibri';
+}
+input[id^="spoiler"]:checked + label + .spoiler{
+  height: auto;
+  opacity: 1;
+  padding: 10px;
+}
+
+/************************************************ TABLE */ 
+
+.table {
+WIDTH: 100%; 
+HEIGHT: 4px;
+BORDER: none; 
+color: #ce5b5d; 
+font size: 11px;   
+background-color: #23344F; 
+font-family: Verdana; }
+
+</style>
+</head>
+    <body>
+
+        <nav class="nav_tabs">
+            <ul>
+                <li>
+                    <input type="radio" name="tabs" class="rd_tabs" id="tab1" 
+                    checked>
+                    <label for ="tab1">Concursos abertos</label>
+                    <div class="content">
+                        <article>
+  <input type="checkbox"  id="spoiler2" /> 
+  <label for="spoiler2" >Silent Manga EXTRA</label>
+
+<div class="spoiler" font-size="11px" text-align="justify" hspace="4">
+"Nesta rodada, esperamos ver muitas inscrições de todo o mundo retratando histórias de pessoas que, como os estudantes aqui no Japão, dão tudo de si quando fazem um exame ou teste. Também esperamos ver episódios reconfortantes daqueles que apóiam essas pessoas, assim como os de amigos ou companheiros que estão trabalhando para o mesmo exame ou teste. Outros exemplos: entrevista de emprego, audição, etc." 
+<br>
+</div>
+
+<p style="text-align:center;">Silent Manga Extra Round 04 + Kit Kat <br>
+Tema: Exame + Teste 	Data: 30 nov. 2018 <br>
+Link com mais informações: <a href="http://www.manga-audition.com/smaex4-kitkat-2018/" target="_blank">clique aqui</a> </p>
+
+<br/>
+
+<div class="table"></div>
+
+<br/>
+  
+<input type="checkbox"  id="spoiler" /> 
+  <label for="spoiler">Silent Manga SMA10</label>
+
+<div class="spoiler">
+"Os três pilares que sustentam a maior revista de mangá do Japão, “Weekly Shonen JUMP”! Utilize um, dois ou todos esses três temas e crie um mangá que sacuda a alma de seus leitores.<br/>
+<br>"AMIZADE": Não apenas uma disposição amigável, mas AMIZADE forjada em AÇÃO! (Por exemplo, ajudando seus amigos; Entendendo e respondendo a ligação de seu amigo; Cuidando do bem-estar de seu amigo)
+<br><br>"ESFORÇO": Não apenas fazendo o seu melhor, mas buscando uma meta única.<br><br>
+"VITÓRIA": Não apenas ganhando, mas ganhando VITÓRIA DO CORAÇÃO, depois de inúmeras “Belas Derrotas”.
+</div>
+<p style="text-align:center;">Silent Manga Round 10 - Até 31 páginas<br>
+Tema: Amizade / Esforço / Vitória 	Data: 30 set. 2018
+<br>Link com mais informações: <a href="http://www.manga-audition.com/sma10-silent-manga-audition-round-ten-2018-september/" target="_blank">clique aqui</a> </p>
+                        </article>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="tabs" class="rd_tabs" id="tab2">
+                    <label for ="tab2">Publicar mangás</label>
+                    <div class="content">
+                        <article>
+  <input type="checkbox"  id="spoiler2" /> 
+  <label for="spoiler2" >Silent Manga</label>
+
+<div class="spoiler" font-size="11px" text-align="justify" hspace="4">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu sodales tortor, posuere mattis nunc. Integer eget sapien ullamcorper diam mollis laoreet. Praesent dignissim id urna at malesuada. Etiam id nisl vitae ante vestibulum volutpat. 
+  <br/><br/>
+  Etiam congue, neque a commodo iaculis, nisl massa varius felis, eget commodo eros mauris vitae felis. Pellentesque sed nisi bibendum, faucibus lectus id, varius metus. Vestibulum lacinia vehicula justo, ut molestie magna tincidunt nec. Suspendisse sit amet sagittis enim.
+</div>
+Contenido normal intercalado sin spoiler</p>
+Silent Manga Extra Round 04 + Kit Kat
+Tema: Exame + Teste 	Data: 30 nov. 2018</p>
+                        </article>
+                    </div>
+                
+                </li>
+                <li>
+                    <input type="radio" name="tabs" class="rd_tabs" id="tab3">
+                    <label for ="tab3">Lista de concursos</label>
+                    <div class="content">
+                        <article>
+
+                        </article>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="tabs" class="rd_tabs" id="tab4">
+                    <label for ="tab4">Lista de eventos</label>
+                    <div class="content">
+                        <article>
+
+                        </article>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
