@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+    <title>Abas de Navegação</title>
+<style>
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ddd;
+    font-family: 'Calibri';
+    font-size: 16px;
+    LINE-HEIGHT: 20px;
+}
+
+
+.nav_tabs{
+    width: 750px;
+    margin: 50px auto;
+    background-color: #fff;
+    position: relative; }
+
+
+
+::-webkit-scrollbar {width: 10px; height: 10px; }
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment  {display: none;}
+::-webkit-scrollbar-track-piece  {background-color: #363b48;}
+::-webkit-scrollbar-thumb:vertical {background-color: #F7A98F;}
+
+
+.nav_tabs ul{
+    list-style: none;
+}
+
+.nav_tabs ul li{
+    float: left;
+}
+
+.nav_tabs label{
+    width: 100px;
+    padding: 25px;
+    background-color: #363b48;
+    display: block;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+
+.rd_tabs:checked ~ label{
+    background-color: #e54e43;
+}
+
+.rd_tabs{
+    display: none;
+}
+
+.content{
+    border-top: 5px solid #e54e43;
+    background-color: #fff;
+    display: none;
+    width: 750px;
+    position: absolute;
+    left: 0;
+}
+
+.content article{
+    padding: 10px;
+    text-align: justify;
+}
+
+.rd_tabs:checked ~ .content{
+    display: block;
+}
+
+input[id^="spoiler"]{
+ display: none;
+}
+input[id^="spoiler"] + label {
+  display: block;
+  width: 310px;
+  margin: 0 auto;
+  padding: 5px 20px;
+  background: #F7A98F;
+  color: #80280B;
+  text-align: center;
+  font-size: 24px;
+  border-radius: 0px;
+  cursor: pointer;
+  transition: all .6s;
+}
+input[id^="spoiler"]:checked + label {
+  color: #fff;
+  background: #3B5D8E;
+}
+input[id^="spoiler"] ~ .spoiler {
+  width: 90%;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  margin: 10px auto 0; 
+  padding: 10px; 
+  background: #eee;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: all .6s;
+  LINE-HEIGHT: 20px;
+  font-family: 'calibri';
+}
+input[id^="spoiler"]:checked + label + .spoiler{
+  height: auto;
+  opacity: 1;
+  padding: 10px;
+}
+
+/************************************************ TABLE */ 
+
+.table2 {
+WIDTH: 100%; 
+HEIGHT: 4px;
+BORDER: none; 
+color: #ce5b5d; 
+font size: 11px;   
+background-color: #23344F; 
+font-family: Verdana; }
+
+.table3 { 
+HEIGHT: 50px;
+float: left;
+text-align: center;
+LINE-HEIGHT: 18px;  
+padding: 9px; 
+margin: 0px 1px 0px 0px;
+color: #c9bdd5;  
+background-color: #565665; 
+}
+
+.table4 { 
+HEIGHT: 50px;
+float: left;
+text-align: center;
+LINE-HEIGHT: 18px;  
+padding: 9px; 
+margin: 0px 1px 0px 0px;
+color: #c9bdd5;  
+background-color: #fff; 
+}
+
+.table5 {
+  width: 670px;
+  margin: 0 auto;
+  padding: 5px 20px;
+  background: #363b48;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+}
+
+</style>
+</head>
+    <body>
+
+        <nav class="nav_tabs">
+            <ul>
+                <li>
+                    <input type="radio" name="tabs" class="rd_tabs" id="tab1" 
+                    checked>
+                    <label for ="tab1">Concursos abertos</label>
+                    <div class="content">
+                        <article>
+  
+<font style="color: #999; font-size: 12px;"><i>ATUALIZADO: 27/12/2018</i></font>
+
+<input type="checkbox"  id="spoiler2" /> 
+  <label for="spoiler2">Silent Manga SMA11</label>
+
+<div class="spoiler">
+PROMESSA <br>
+"Uma promessa que permite ao seu protagonista superar suas limitações, ou uma promessa feita a um amigo ou 
+verdadeiro amor... Liberte sua imaginação e crie um mangá que 'mpressionará' os jurados!"
+</div>
+<p style="text-align:center;">Silent Manga Round 11 - Até 31 páginas<br>
+Tema: Promessa; 	Data: 15/10/18 a 31/03/19
+<br>Link com mais informações: <a href="http://www.manga-audition.com/sma11-silent-manga-audition-round-eleven-2019-march/" target="_blank">clique aqui</a> </p>
+
+                        </article>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="tabs" class="rd_tabs" id="tab2">
+                    <label for ="tab2">Publicar mangás</label>
+                    <div class="content">
+                        <article>
+
+<style type="text/css">
+table#alter td {background: #fff; text-align: center; LINE-HEIGHT: 15px; padding: 9px; border: #f5d0a9 1px solid; }
+table#alter tr.dif td {background: #f7f2e0; text-align: center; LINE-HEIGHT: 15px; padding: 9px; border: #f5d0a9 1px solid;}
+table#alter tr.titulo td {background: #F7A98F; text-align: center; LINE-HEIGHT: 15px; padding: 9px; border: #e54e43 1px solid;}
+</style>
+</head>
+
+<center><table cellpadding="5px" cellspacing="0" id="alter">
+  <tr class="titulo"> 
+        <td>Sites p/ publicar</td>
+        <td>Gratuito <br>p/ postar</td>
+        <td>Gratuito <br>p/ leitor</td>
+        <td>PT-BR</td>
+        <td>Gera <br>receita</td>
+        <td>Comentários <br>dos leitores</td>
+        <td>Estatísticas</td>
+        <td>Exemplos</td>
+  <tr> 
+    <td><a href="https://www.socialcomics.com.br/" target="_blank">Social Comics</a></td>
+    <td>Sim</td>
+    <td>Não</td>
+    <td>Sim</td>
+    <td>Sim</td>
+    <td>Sim</td>
+    <td>Sim</td>
+    <td>-</td>
+  </tr>
+  <tr class="dif"> 
+    <td><a href="https://issuu.com/" target="_blank">Issuu</a></td>
+    <td>Sim</td>
+    <td>Sim</td>    
+    <td>Não</td>
+    <td>Sim</td>
+    <td>Não</td>
+    <td>Sim</td>
+    <td><a href="https://issuu.com/alendadeboia/docs/um_dia_de_ca__a_" target="_blank">Aqui</a></td>
+  </tr>
+  <tr> 
+    <td><a href="https://medium.com/" target="_blank">Medium</a></td>
+    <td>Sim</td>
+    <td>Sim</td>
+    <td>Não</td> 
+    <td>Não</td>
+    <td>Sim</td> 
+    <td>Sim</td> 
+    <td><a href="https://medium.com/@brenddacostalima/manual-de-sobreviv%C3%AAncia-%C3%A0-vida-adulta-d0e0e5f9d24b#.wcv6vlwyl" target="_blank">Aqui</a></td> 
+  </tr>
+  <tr class="dif"> 
+    <td><a href="https://tapas.io/publishing" target="_blank">Tapas</a></td>
+    <td>Sim</td>
+    <td>Sim</td>
+    <td>Não</td>
+    <td>Sim</td> 
+    <td>Sim</td> 
+    <td>Sim</td> 
+    <td><a href="https://tapas.io/episode/326470" target="_blank">Aqui</a></td> 
+  </tr>
+  <tr> 
+    <td><a href="https://medibang.com/" target="_blank">Medibang</a></td>
+    <td>Sim</td>
+    <td>Sim</td>
+    <td>Não</td>
+    <td>Sim</td> 
+    <td>Sim</td> 
+    <td>?</td> 
+    <td><a href="https://medibang.com/book/cr1602150600221790000506946?ads=039" target="_blank">Aqui</a></td> 
+  </tr>
+</table> </center>
+
+
+                        </article>
+                    </div>
+                
+                </li>
+                <li>
+                    <input type="radio" name="tabs" class="rd_tabs" id="tab3">
+                    <label for ="tab3">Lista de concursos</label>
+                    <div class="content">
+                        <article>
+<div class="table5">Concursos Nacionais</div><br>
+
+<input type="checkbox"  id="spoiler21" /> 
+  <label for="spoiler21">BMA - Brazil Manga Awards</label>
+
+<div class="spoiler">
+BMA - Brazil Manga Awards realizado pela editora JBC <br>
+- Leitura ocidental <br>
+- De 24 a 32 páginas <br>
+- (edição 2018) inscrições até 15 de março de 2018 <br>
+- Maiores de 18 anos <br>
+- Enviar por formato digital (JPG ou PNG, 1350px por 2050px) <br>
+- Não incluir sangria nem marcas de corte e impressão <br>
+- Poderá concorrer também no International Manga Award (fazer uma versão da ficha de inscrição em inglês e marcar a opção “Inscrever também no International Manga Award”. Automaticamente o trabalho será encaminhado ao Consulado Geral Japonês, que se regerá pelo regulamento do
+concurso lá realizado).
+</div>
+<p style="text-align:center;">Data: 23/01/18 até 15/03/18 	Páginas: 24 a 32 páginas <br>
+Tema: livre 	Envio: Online
+<br>Link com mais informações: <a href="http://brazilmangaawards.com.br/regulamento/" target="_blank">clique aqui</a> </p>
+
+<br/>
+
+<div class="table2"></div>
+
+<br/>
+  <input type="checkbox"  id="spoiler22" /> 
+  <label for="spoiler22" >Concurso de mangá do Bunkyo</label>
+
+<div class="spoiler" font-size="11px" text-align="justify" hspace="4">
+Concurso Literário do Bunkyo - Categoria Mangá <br>
+- De 10 a 50 páginas <br>
+- Tema específico <br>
+- Em português ou japonês <br>
+- Enviados em material físico <br>
+- Premiação para 1º lugar, 2º lugar e 3º lugar <br>
+- (edição 2015) inscrições até 15 de outubro e resultado dia 14 de novembro <br>
+- (edição 2016) Inscrições: 15/09 até 10/10, tema livre, de 10 a 50 páginas, individual ou grupo <br>
+- (edição 2017) Inscrições: 21/08 até 16/10, tema "Círculo", de 10 a 50 páginas, individual ou grupo <br>
+- (edição 2018) Inscrições: 25/06 até 05/10, tema "A Carta", de 10 a 50 páginas, individual ou grupo
+</div>
+<p style="text-align:center;">Data: 25/06/18 até 05/10/18;	Páginas: 10 a 50 <br>
+Tema: "A Carta"; 	Envio: Físico
+<br>Link com mais informações: <a href="
+http://www.bunkyo.org.br/pt-BR/noticias/163-2018/1459-ate-5-de-outubro-estao-abertas-as-inscricoes-para-o-9-concurso-de-manga-do-bunkyo" target="_blank">clique aqui</a> </p>
+
+<br/>
+
+<div class="table2"></div>
+
+<br/>
+  <input type="checkbox"  id="spoiler23" /> 
+  <label for="spoiler23" >Concurso Monthly Action Hiken</label>
+
+<div class="spoiler" font-size="11px" text-align="justify" hspace="4">
+Concurso Desenho Online da Monthly Action Hiken (Estúdio Armon) <br>
+- (edição 2018) Inscrições: até 25/11 <br>
+- Tema livre <br>
+- Individual, em dupla, ou grupo <br>
+- One-shot de 15 a 35 páginas (contando com capa) <br>
+- Qualquer idade <br>
+- Envio por e-mail (JPG 1448px por 2050px) <br>
+- A obra pode se tornar uma série <br>
+- Resultado dia 30/11 na edição #35 da Action Hiken <br>
+</div>
+<p style="text-align:center;">Data: 25 nov. 2018 	Páginas: 15 a 35 páginas <br>
+Tema: Livre 	Envio: Online (e-mail)
+<br>Link com mais informações: <a href="http://www.estudioarmon.com.br/2018/09/4-concurso-de-mangas-estudio-armon.html" target="_blank">clique aqui</a> </p>
+
+<br/>
+
+<div class="table2"></div>
+
+<br/>
+
+<div class="table5">Concursos Internacionais</div><br>
+   <input type="checkbox"  id="spoiler24" /> 
+  <label for="spoiler24" >Concurso Silent Manga</label>
+
+<div class="spoiler" font-size="11px" text-align="justify" hspace="4">
+- Histórias sem texto/diálogo, apenas com ilustrações em quadrinhos <br>
+- Seguir um tema proposto <br>
+- Qualquer idade <br>
+- Envio online ou por correio <br>
+- A obra deve ser inédita, não publicada <br>
+- Leitura oriental <br>
+- Individual ou em grupo <br>
+</div>
+<p style="text-align:center;">Datas: (várias edições); 	Páginas: até 31 páginas <br>
+Tema: Depende da edição; 	Envio: Online 
+<br>Link com mais informações: <a href="http://www.manga-audition.com/" target="_blank">clique aqui</a> </p>
+
+<br/>
+
+<div class="table2"></div>
+
+<br/> 
+   <input type="checkbox"  id="spoiler25" /> 
+  <label for="spoiler25" >International Manga Award</label>
+
+<div class="spoiler" font-size="11px" text-align="justify" hspace="4">
+- (edição 2016) inscrições de 01/04 até 17/06 <br>
+- (edição 2018) inscrições de 02/04 até 15/06 <br>
+- Pode enviar mangás publicados ou não-publicados <br>
+- Enviar duas cópias impressas ao consulado ou embaixada japonesa <br>
+- Formulário de inscrição preenchido em inglês ou japonês <br>
+- 1 Prêmio Gold Award e 3 prêmios Silver Award (10 dias no Japão para premiação) <br>
+</div>
+<p style="text-align:center;">Data: 02/04 até 15/06/2018 (no Japão); 	Páginas: 16 ou mais <br>
+Tema: ?? 	Envio: Físico (para embaixada japonesa) 
+<br>Link com mais informações: <a href="https://www.manga-award.mofa.go.jp/index_e.html" target="_blank">clique aqui</a> 
+ou <a href="https://www.curitiba.br.emb-japan.go.jp/itpr_pt/00_000069.html" target="_blank">aqui</a> </p>
+
+<br/>
+
+<div class="table2"></div>
+
+<br/> 
+
+
+<div class="table5">Concursos Passados</div><br>
+   <input type="checkbox"  id="spoiler26" /> 
+  <label for="spoiler26" >Concurso MCPO</label>
+
+<div class="spoiler" font-size="11px" text-align="justify" hspace="4">
+Concurso MCPO (Manga Contents Promote Organization) - Medibang <br>
+- Edição 2017: 17 de novembro de 2016 até 15 de fevereiro de 2017 <br>
+- Idioma: inglês, espanhol, francês, russo, coreano ou chinês <br>
+- Tema livre <br>
+- One-shot de até 30 páginas <br>
+- Leitura ocidental ou oriental (melhor oriental porque eles vão publicar no Japão ^^) <br>
+- Envio online <br>
+- Prêmio Principal: 300,000 ienes + publicação da obra no site da MCPO e Medibang + publicação na revista Sougeisha <br>
+- Segundo Prêmio: 200,000 ienes <br>
+- Terceiro Prêmio: 100,000 ienes <br>
+- O MCPO também tem a categoria ilustração (imagem em png ou jpg, tema livre)
+</div>
+<p style="text-align:center;">Data: 17/11/16; a 15/02/17 	Páginas: até 30 <br>
+Tema: livre; 	Envio: Online (Medibang) 
+<br>Link com mais informações: <a href="https://medibang.com/contest/mcpo/" target="_blank">clique aqui</a> </p>
+
+<br/>
+<div class="table2"></div>
+<br/> 
+
+   <input type="checkbox"  id="spoiler27" /> 
+  <label for="spoiler27" >Silent Manga EXTRA</label>
+
+<div class="spoiler" font-size="11px" text-align="justify" hspace="4">
+"Nesta rodada, esperamos ver muitas inscrições de todo o mundo retratando histórias de pessoas que, como os estudantes aqui no Japão, dão tudo de si quando fazem um exame ou teste. Também esperamos ver episódios reconfortantes daqueles que apóiam essas pessoas, assim como os de amigos ou companheiros que estão trabalhando para o mesmo exame ou teste. Outros exemplos: entrevista de emprego, audição, etc." 
+<br>
+</div>
+
+<p style="text-align:center;">Silent Manga Extra Round 04 + Kit Kat <br>
+Tema: Exame + Teste 	Data: 30 nov. 2018 <br>
+Link com mais informações: <a href="http://www.manga-audition.com/smaex4-kitkat-2018/" target="_blank">clique aqui</a> </p>
+
+<br/>
+
+<div class="table2"></div>
+
+<br/>
+  
+<input type="checkbox"  id="spoiler28" /> 
+  <label for="spoiler28">Silent Manga SMA10</label>
+
+<div class="spoiler">
+"Os três pilares que sustentam a maior revista de mangá do Japão, “Weekly Shonen JUMP”! Utilize um, dois ou todos esses três temas e crie um mangá que sacuda a alma de seus leitores.<br/>
+<br>"AMIZADE": Não apenas uma disposição amigável, mas AMIZADE forjada em AÇÃO! (Por exemplo, ajudando seus amigos; Entendendo e respondendo a ligação de seu amigo; Cuidando do bem-estar de seu amigo)
+<br><br>"ESFORÇO": Não apenas fazendo o seu melhor, mas buscando uma meta única.<br><br>
+"VITÓRIA": Não apenas ganhando, mas ganhando VITÓRIA DO CORAÇÃO, depois de inúmeras “Belas Derrotas”.
+</div>
+<p style="text-align:center;">Silent Manga Round 10 - Até 31 páginas<br>
+Tema: Amizade / Esforço / Vitória 	Data: 30 set. 2018
+<br>Link com mais informações: <a href="http://www.manga-audition.com/sma10-silent-manga-audition-round-ten-2018-september/" target="_blank">clique aqui</a> </p>
+
+<br/>
+
+<div class="table2"></div>
+
+<br/> 
+                        </article>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="tabs" class="rd_tabs" id="tab4">
+                    <label for ="tab4">Lista de eventos</label>
+                    <div class="content">
+                        <article>
+<div class="table5">Eventos no Vale do Paraíba</div><br>
+
+  <input type="checkbox"  id="spoiler50" /> 
+  <label for="spoiler50" >Anime Fest - SJC</label>
+
+<div class="spoiler" font-size="11px" text-align="justify" hspace="4">
+- Os artistas passarão por uma seletiva e serão informados por e-mail se foram ou não aprovados na primeira fase da seleção; <br>
+- O evento fornece pacote gratuito com 02 credenciais de acesso ao evento, 02 mesas; e 02 cadeiras; <br>
+- Podemos pagar por itens extras como credenciais de acesso ao evento, cadeira e 01 tomada 127v p/ carregador 
+de celular, notebook ou máquina de cartão (solicitar por e-mail); <br>
+- Comercializar apenas produtos de própria autoria 
+<br>
+</div>
+
+<p style="text-align:center;">Local: Parque Tecnológico - São José dos Campos <br>
+Data: 25 nov. 2018 11h - 19h;	Ingresso: R$ 20 + R$ 1,60 (taxa) <br> 
+Cadastro Artists Alley (AA): 04 set. 2018; 	Preço AA: Gratuito <br>
+Link com mais informações: <a href="http://www.saojoseanimefest.com.br/" target="_blank">clique aqui</a> </p>
+
+<br/>
+<div class="table2"></div>
+<br/>
+
+<div class="table5">Eventos em São Paulo</div><br>
+  
+<input type="checkbox"  id="spoiler51" /> 
+  <label for="spoiler51">Anime Friends</label>
+
+<div class="spoiler">
+Ainda não encontrei informações oficiais, mas acredito que sejam as mesmas do Ressaca Friends já que são da mesma empresa ^^
+</div>
+<p style="text-align:center;">Local: Anhembi – Centro de Eventos Av. Olavo Fontoura, 1209 Santana - São Paulo-SP <br>
+Data: (2018) 6, 7, 8 e 9 de julho;	Ingresso: Gratuito p/ Artists Alley <br> 
+Cadastro Artists Alley (AA): ?? 	Preço AA: R$ 300,00 <br>
+Link com mais informações: <a href="https://animefriends.com.br/cadastro-artists-alley-2/" target="_blank">clique aqui</a> </p>
+     
+
+<br/>
+<div class="table2"></div>
+<br/>
+
+  
+<input type="checkbox"  id="spoiler52" /> 
+  <label for="spoiler52">Ressaca Friends</label>
+
+<div class="spoiler">
+- Valor: R$ 300,00; <br>
+- Cadastro: ??  <br>
+- Deve comparecer nos dois dias do evento; <br>
+- 01 mesa de 1,20 x 0,60m, 02 cadeiras, 02 ingressos Cortesia, 01 ponto de eletricidade; <br>
+
+
+</div>
+<p style="text-align:center;">Local: PRO MAGNO - CENTRO DE EVENTOS Avenida Profª Ida Kolb, 513 Casa Verde - São Paulo-SP <br>
+Data: (2018) 15 e 16 de dezembro;	Ingresso: Gratuito p/ Artists Alley <br> 
+Cadastro Artists Alley (AA): ?? 	Preço AA: R$ 300,00 <br>
+Link com mais informações: <a href="https://ressacafriends.com.br/paginas/institucional/41" target="_blank">clique aqui</a> </p>
+          
+<br/>
+<div class="table2"></div>
+<br/>
+  
+<input type="checkbox"  id="spoiler53" /> 
+  <label for="spoiler53">Comic Con Experience - CCXP</label>
+
+<div class="spoiler">
+- Inscrição (2018): 02/05/18 até 30/05/18; <br>
+- Valor: R$900,00 (mesa simples) ou R$3.000,00 (mesa dupla); <br>
+- Deve comparecer nos dois dias do evento; <br>
+- MESA SIMPLES: 01 mesa de 1,40 x 0,50m, 02 cadeiras, 02 ingressos Cortesia, 01 tomada 110v; <br>
+- MESA DUPLA: 01 mesa de 2,80 x 0,50m, 02 cadeiras, 02 ingressos Cortesia, 01 tomada 110v e 01 backdrop de 2m x 3m com arte do artista; <br>
+
+
+</div>
+<p style="text-align:center;">Local: São Paulo Expo - Rodovia dos Imigrantes, km 1,5, Água Funda - São Paulo-SP <br>
+Data: (2018) 06 a 09 de dezembro;	Ingresso: Gratuito p/ Artists Alley <br> 
+Cadastro Artists Alley (AA): 02/05/18 até 30/05/18;	<br>
+Preço AA: R$900,00 (mesa simples) ou R$3.000,00 (mesa dupla) <br>
+Link com mais informações: <a href="http://www.ccxp.com.br/media/manual-de-inscricao-artists-alley2018.pdf" target="_blank">clique aqui</a> </p>
+          
+<br/>
+<div class="table2"></div>
+<br/>
+        
+                        </article>
+                    </div>
+                </li>
+               <li>
+                    <input type="radio" name="tabs" class="rd_tabs" id="tab5">
+                    <label for ="tab5">Projetos / Outros</label>
+                    <div class="content">
+                        <article>
+
+<div class="table5">Participações em concursos</div><br>
+  
+<input type="checkbox"  id="spoiler60" /> 
+  <label for="spoiler60">SMA7 - Sabor inesquecível</label>
+
+<div class="spoiler">
+Primeiro concurso que a gente participou!</div>
+<p style="text-align:center;">Concurso: Silent Manga 7 - SMA7 <br>
+Data: 31/03/2017;	Tema: Sabor inesquecível <br> 
+Link do concurso: <a href="http://www.manga-audition.com/sma7-silent-manga-audition-round-seven-2017-march/" target="_blank">clique aqui</a> ; 
+ Ler online: <a href="http://smacmag.net/v/sma7/sweet-bitter-memories-by-marsil-chimu/" target="_blank">clique aqui</a> </p>
+</p>
+     
+
+<br/>
+<div class="table2"></div>
+<br/>
+                        </article>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
